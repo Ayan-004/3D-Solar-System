@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>3D Solar System Assignment</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Solar System</h1>
-    <div id="controls"></div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Gruppo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Special+Gothic+Expanded+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>3D Solar System</h1>
+
+    <details id="controlsDropdown" open>
+        <summary>Controls</summary>
+        <div id="controls">
+            <button id="toggleAnimation">Pause</button>
+        </div>
+    </details>
+    
     <canvas id="solarCanvas"></canvas>
-</body>
-<script type="module" src="script.js"></script>
+
+    <div id="tooltip"></div>
+    <script type="module" src="script.js"></script>
+  </body>
 </html>
