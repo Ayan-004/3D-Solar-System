@@ -1,5 +1,5 @@
 # 3D Solar System
-This project is a 3D interactive model of the solar system built using [Three.js](https://threejs.org/). It allows users to explore planets, adjust their orbital speeds, and visually understand planetary motion. Designed for an internship assignment.
+This project is a 3D interactive model of the solar system built using [Three.js](https://threejs.org/). It allows users to explore planets, adjust their orbital speeds, and visually understand planetary motion.
 
 ---
 
